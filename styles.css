@@ -1,0 +1,44 @@
+li{
+    list-style-type: none;
+}
+.about{
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+    color: darkred;
+}
+
+#brand{
+    font-size: 20px;
+    font-weight: 700;
+}
+.content{
+    border: 2px solid black;
+    height: 300px;
+    width: 700px;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 300px;
+}
+#bt{
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: brown;
+}
+footer{
+    text-align: center;
+    margin-top: 150px;
+}
+header{
+    background-color: chartreuse !important;
+}
+body{
+    background-color: darkcyan;
+}
