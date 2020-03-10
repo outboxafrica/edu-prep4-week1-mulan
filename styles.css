@@ -1,12 +1,21 @@
 li{
     list-style-type: none;
+    
 }
-.about{
-    margin-right: 10px;
+#about{
+    margin-right: 10px; 
+    background-color: rgb(136, 11, 11);
+    padding: 10px;
+    border-radius: 25px;
+    border-right: -250px;
+    color: white !important;
+}
+#about:hover{
+    background-color: #3e8e41;
+    color:whitesmoke;
 }
 a{
     text-decoration: none;
-    margin-right: 20px;
 }
 
 h1{
@@ -15,8 +24,14 @@ h1{
 }
 
 #brand{
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 900;
+    font-style: italic;
+    margin-left: 30px;
+    font-family: cursive;
+    background-color: darkgreen;
+    width: 150px;
+    border-radius: 5p;
 }
 .content{
     border: 2px solid black;
@@ -25,20 +40,79 @@ h1{
     text-align: center;
     font-size: 40px;
     margin-left: 300px;
+    background-color: black;
+    opacity: 0.9;
+    color:white;
 }
 #bt{
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
     font-size: 25px;
-    background-color: brown;
+    background-color: rgb(136, 11, 11);
+    opacity: 1 !important;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#bt:hover{
+    background-color: chartreuse;
+    color:purple;
 }
 footer{
     text-align: center;
-    margin-top: 150px;
+    margin-top: 200px;
+    background-color: black;
+    color: white;
+    padding-bottom: 9px;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    opacity: 0.4;
 }
-header{
-    background-color: chartreuse !important;
+#copy{
+    padding-top: 10px;
 }
 body{
-    background-color: darkcyan;
+    /* background-color: darkcyan; */
+    background-image: url(./xnr9382_how-to-design-a-creative-event-concept.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
+.dropbtn {
+    background-color: rgb(136, 11, 11);
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 860px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
