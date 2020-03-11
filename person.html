@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
     <style>
         .card{
@@ -22,9 +23,9 @@
             list-style-type: none;
             
         }
-        nav{
+        /* nav{
             background-color: blue;
-        }
+        } */
         .sec{
             margin-top: 50px;
         }
@@ -33,9 +34,19 @@
 <body>
     <header>
         <nav id="nav-bar">
-            <li style="float: left;"><a href="#"></a>MULAN</li>
-            <li style="float: right;"><a href="#"></a>NAME</li>
-            <li style="float: right; margin-right: 20px;"><a href="#"></a>HOME</li>
+            <li style="float: left;" id="brand"><a href="./index.html" style="color: white;">MULAN</a></li>
+            <!-- <li style="float: right;"><a href="#"></a>NAME</li> -->
+            <li style="float: right; margin-right: 20px;" id="about"><a href="#"></a>HOME</li>
+            <div class="dropdown">
+                <button class="dropbtn">MEMBERS</button>
+                <div class="dropdown-content">
+                  <a href="#">Hawa</a>
+                  <a href="#">Geofrey</a>
+                  <a href="#">Iga</a>
+                  <a href="#">Samantha</a>
+                  <a href="#">Trevis</a>
+                </div>
+              </div>
         </nav>
     </header><br>
     <section class="sec">
